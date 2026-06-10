@@ -24,4 +24,9 @@ const input=document.getElementById("eventListener")
 const output=document.getElementById("ptag")
 input.addEventListener("input", ()=>{
     output.textContent = input.value
-})
+}) 
+const newvar = document.createElement("p");
+newvar.textContent = "This is new variable";
+document.body.appendChild(newvar);
+
+newvar.remove()
